@@ -1,0 +1,18 @@
+.container{
+  grid-column: 2/3;
+  color: #fff;
+  outline: 1px solid #fff;
+  width: 80%;
+  height: 30rem;
+  margin: 3rem 1rem;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: space-around;
+  background-color: #000000a2;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 15px #4d4c4c;
+  border-radius: 1rem;
+}

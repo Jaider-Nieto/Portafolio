@@ -1,0 +1,17 @@
+*{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url('./Imgs/fondo.jpg');
+  background-attachment: fixed;
+  user-select: none;
+  overflow-x: hidden;
+}

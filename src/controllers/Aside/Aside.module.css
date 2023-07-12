@@ -1,0 +1,56 @@
+.container{
+  background-color: #000;
+  height: 50vh;
+  position: sticky;
+  top: 12rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  outline: 3px solid #fff;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px #4d4c4c;
+}
+
+.a{
+  font-size: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  color: #fff;
+}
+.icon{
+  padding: .2rem;
+  font-size: 3rem;
+  margin: 1rem 0;
+  transition: .3s;
+}
+
+.a:nth-child(1) .icon:hover{
+  background-color: #fff;
+  color: #000000;
+  border-radius: 1rem;
+}
+
+.a:nth-child(2) .icon:hover{
+  background-color: #fff;
+  color: #ffd000;
+  border-radius: 1rem;
+}
+
+.a:nth-child(3) .icon:hover{
+  background-color: #fff;
+  color: #0A66C2;
+  border-radius: 1rem;
+}
+
+.a:nth-child(4) .icon:hover{
+  background-color: #fff;
+  color: #0CC243;
+  border-radius: 1rem;
+}
