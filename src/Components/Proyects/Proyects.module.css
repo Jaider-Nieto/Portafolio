@@ -1,0 +1,63 @@
+.container{
+  grid-column: 2/3;
+  color: #fff;
+  width: 80%;
+  margin: 3rem 1rem;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: space-around;
+  border-radius: 1rem;
+  scroll-margin-top: 1.3ex;
+  outline: 1px solid #fff;
+}
+.title{
+  text-align: center;
+  font-family: 'Caprasimo', cursive;
+  color: transparent;
+  font-size: 4rem;
+  padding: 0 .5rem;
+  border-bottom: 3px solid #6f1aa0;
+  text-shadow: 3px 3px 0 #6f1aa0, -3px -3px 0 #330c49;
+}
+
+.cardContainer{
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card{
+  width: 45%;
+  height: auto;
+}
+
+.cardTitle{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.imgCon{
+  height: 12rem;
+  width: 100%;
+  outline: 1px solid #f00;
+  display: flex;
+  justify-content: center;
+}
+
+.cardImg{
+  height: 100%;
+  width: auto;
+  outline: 2px solid #fff;
+  
+}
+
+.cardDescription{
+  font-size: 1rem;
+}

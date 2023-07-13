@@ -15,4 +15,18 @@
   backdrop-filter: blur(3px);
   box-shadow: 0 0 15px #4d4c4c;
   border-radius: 1rem;
+  scroll-margin-top: 2ex;
+}
+
+.content{
+  background: linear-gradient(to right, #e4f54a , #becf27, #d4eb0c) ;
+}
+
+.title{
+  color: #fff;
+  font-size: 4rem;
+  background-color: #000;
+  mix-blend-mode: multiply;
+  border-bottom: 3px solid #fff;
+  text-shadow: 4px 4px 0 #696800;
 }
