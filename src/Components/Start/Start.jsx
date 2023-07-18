@@ -7,7 +7,7 @@ const Start = () => {
       <h2 className={style.name}>Jaider Nieto</h2>
       <h2 className={style.dev}>Web Developer</h2>
       <div className={style.text}> Desarrollador Backend, con conocimientos en Frontend </div>
-      <a className={style.btn} href="#Proyectos">Proyectos</a>
+      <a className={style.btn} href="src\CV\JaiderNietoCV.pdf" download >Descargar CV</a>
     </div>
   )
 }

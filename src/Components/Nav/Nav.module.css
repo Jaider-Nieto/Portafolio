@@ -44,21 +44,26 @@
 }
 
 .btn:nth-child(2):hover{
+  color: #d63131;
+  border-bottom: 3px solid #d63131;
+}
+
+.btn:nth-child(3):hover{
   color: #31d639;
   border-bottom: 3px solid #31d639;
 }
 
-.btn:nth-child(3):hover{
+.btn:nth-child(4):hover{
   color: #a134e0;
   border-bottom: 3px solid #8f2cc9;
 }
 
-.btn:nth-child(4):hover{
+.btn:nth-child(5):hover{
   color: #e4f54a;
   border-bottom: 3px solid #e4f54a;
 }
 
-.btn:nth-child(5):hover{
+.btn:nth-child(6):hover{
   color: #2ADDF7;
   border-bottom: 3px solid #2ADDF7;
 }
