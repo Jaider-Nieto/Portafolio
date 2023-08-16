@@ -1,15 +1,17 @@
-import style from './Start.module.css'
+import style from "./Start.module.css";
 
 const Start = () => {
   return (
     <div className={style.container}>
-      <h2 className={style.hi}>Hola, Soy</h2>
+      <h2 className={style.hi}>Hola, soy</h2>
       <h2 className={style.name}>Jaider Nieto</h2>
-      <h2 className={style.dev}>Web Developer</h2>
-      <div className={style.text}> Desarrollador Backend, con conocimientos en Frontend </div>
-      <a className={style.btn} href="src\CV\JaiderNietoCV.pdf" download >Descargar CV</a>
+      <h2 className={style.dev}>Desarrollador Backend</h2>
+      <div className={style.text}> con conocimientos solidos en Frontend </div>
+      <a className={style.btn} href="src\CV\JaiderNietoCV.pdf" download>
+        Descargar CV
+      </a>
     </div>
-  )
-}
+  );
+};
 
 export default Start;

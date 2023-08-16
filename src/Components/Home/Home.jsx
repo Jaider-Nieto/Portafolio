@@ -10,8 +10,8 @@ const Home = () => {
     <div className={style.container}>
       <Aside/>
       <Start/>
-      <About/>
       <Proyects/>
+      <About/>
       <Skills/>
     </div>
   )

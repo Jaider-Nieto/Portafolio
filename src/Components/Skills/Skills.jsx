@@ -17,18 +17,42 @@ const Skills = () => {
     <div className={style.container} id="Skills">
       <h1 className={style.title}>Skills</h1>
       <div className={style.content}>
-      <BiLogoHtml5 title="HTML" className={style.icon} />
-        <BiLogoCss3 title="CSS" className={style.icon} />
-        <BiLogoJavascript title="JAVASCRIPT" className={style.icon} />
-        <SiExpress title="EXPRESS" className={style.icon} />
-        <BiLogoReact title="REACT" className={style.icon} />
-        <BiLogoRedux title="REDUX" className={style.icon} />
-        <BiLogoTypescript title="TYPESCRIPT" className={style.icon} />
-        <SiPrisma title="PRISMA" className={style.icon} />
-        <BiLogoPostgresql title="POSTGRES" className={style.icon} />
-        <SiSequelize title="SEQUELIZE" className={style.icon} />
-        <BiLogoGit title="GIT" className={style.icon} />
-        <BiLogoNodejs title="NODEJS" className={style.icon} />
+        <span className={style.iconContainer}>
+          <BiLogoHtml5 title="HTML" className={style.icon} />
+        </span>
+        <span className={style.iconContainer}>
+          <BiLogoCss3 title="CSS" className={style.icon} />
+        </span>
+        <span className={style.iconContainer}>
+          <BiLogoJavascript title="JAVASCRIPT" className={style.icon} />
+        </span>
+        <span className={style.iconContainer}>
+          <SiExpress title="EXPRESS" className={style.icon} />
+        </span>
+        <span className={style.iconContainer}>
+          <BiLogoReact title="REACT" className={style.icon} />
+        </span>
+        <span className={style.iconContainer}>
+          <BiLogoRedux title="REDUX" className={style.icon} />
+        </span>
+        <span className={style.iconContainer}>
+          <BiLogoTypescript title="TYPESCRIPT" className={style.icon} />
+        </span>
+        <span className={style.iconContainer}>
+          <SiPrisma title="PRISMA" className={style.icon} />
+        </span>
+        <span className={style.iconContainer}>
+          <BiLogoPostgresql title="POSTGRES" className={style.icon} />
+        </span>
+        <span className={style.iconContainer}>
+          <SiSequelize title="SEQUELIZE" className={style.icon} />
+        </span>
+        <span className={style.iconContainer}>
+          <BiLogoGit title="GIT" className={style.icon} />
+        </span>
+        <span className={style.iconContainer}>
+          <BiLogoNodejs title="NODEJS" className={style.icon} />
+        </span>
       </div>
     </div>
   );

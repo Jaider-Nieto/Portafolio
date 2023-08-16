@@ -1,7 +1,8 @@
 .container{
   grid-column: 2/3;
   color: #fff;
-  width: 80%;
+  width: 90%;
+  height: auto;
   margin: 3rem 1rem 0 1rem;
   padding: 1rem 3rem;
   display: flex;
@@ -10,40 +11,29 @@
   align-items: baseline;
   align-content: space-around;
   border-radius: 1rem;
-  scroll-margin-top: 1ex;
-}
-.title{
-  text-align: center;
-  font-family: 'Caprasimo', cursive;
-  color: transparent;
-  font-size: 4rem;
-  padding: 0 .5rem;
-  border-bottom: 3px solid #6f1aa0;
-  text-shadow: 3px 3px 0 #6f1aa0, -3px -3px 0 #330c49;
+  scroll-margin-top: 1.2ex;
 }
 
 .cardContainer{
   width: 100%;
-  height: auto;
-  padding: 1rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 .card{
   width: 100%;
-  height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1rem 0;
+  gap: 1rem;
 }
 
 .cardTitle{
   width: 100%;
-  font-size: 4rem;
+  font-size: 4.5rem;
   text-align: center;
   color: #6f1aa0;
   text-shadow: 4px 3px 0 #2d0f3f;
@@ -78,15 +68,15 @@
 .cardDescription{
   width: 90%;
   margin: 0 auto;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: 1rem auto;
-  text-align: justify;
+  text-align: justify;  
 }
 
 .tecno{
   list-style: none;
   width: 90%;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: 0 auto;
 }
 

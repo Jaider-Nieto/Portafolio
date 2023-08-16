@@ -1,7 +1,7 @@
 .container{
   grid-column: 2/3;
   color: #fff;
-  width: 80%;
+  width: 85%;
   height: 30rem;
   margin: 3rem 1rem 0 1rem;
   padding: 1rem 3rem;
@@ -15,8 +15,8 @@
 
 .hi{
   height: 3rem;
-  font-size:3rem;
-  width: 30%;
+  font-size:4rem;
+  width: 33%;
   text-align: end;
   padding: 0 1rem;
   text-shadow: 4px 4px 0 #636363; 
@@ -33,7 +33,7 @@
 }
 
 .dev{
-  font-size: 7rem;
+  font-size: 5.5rem;
   text-align: center;
   color: #000;
   text-shadow: 3px 3px 0 #b11b1b, -3px -3px 0 #4fe93b ;
@@ -43,6 +43,8 @@
   height: auto;
   font-size: 2rem;
   text-shadow: 2px 2px 0 #636363; 
+  width: 100%;
+  text-align: center;
 }
 
 .btn{

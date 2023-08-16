@@ -17,7 +17,7 @@
 
 .devCon{
   background: linear-gradient(to right, #2ae9f7, #8a14ce);
-  margin-right: 5rem;
+  margin-right: 1rem;
 }
 
 .dev{
@@ -29,7 +29,6 @@
   color:  #fff;
   mix-blend-mode: multiply;
   text-decoration: none;
-  padding: 0 1rem;
 }
 
 .btn{

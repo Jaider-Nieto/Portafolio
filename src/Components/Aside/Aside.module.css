@@ -1,6 +1,6 @@
 .container{
   background-color: #000;
-  height: 50vh;
+  height: 55vh;
   position: sticky;
   top: 12rem;
   display: flex;
@@ -29,6 +29,12 @@
   font-size: 3rem;
   margin: 1rem 0;
   transition: .3s;
+  position: relative;
+}
+
+.icon:hover{
+  font-size: 4rem;
+  margin-left: 2rem;
 }
 
 .a:nth-child(1) .icon:hover{
