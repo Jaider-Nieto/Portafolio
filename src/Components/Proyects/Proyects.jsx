@@ -12,19 +12,19 @@ const Proyects = () => {
               <li>
                 <img
                   className={style.cardImg}
-                  src="src\Imgs\Pi-pokemon-1.png"
+                  src="https://mis-imagenes-jaider.s3.us-east-2.amazonaws.com/Pi-pokemon-1.png"
                 />
               </li>
               <li>
                 <img
                   className={style.cardImg}
-                  src="src\Imgs\Pi-pokemon-2.png"
+                  src="https://mis-imagenes-jaider.s3.us-east-2.amazonaws.com/Pi-pokemon-2.png"
                 />
               </li>
               <li>
                 <img
                   className={style.cardImg}
-                  src="src\Imgs\Pi-pokemon-3.png"
+                  src="https://mis-imagenes-jaider.s3.us-east-2.amazonaws.com/Pi-pokemon-3.png"
                 />
               </li>
             </ul>
@@ -67,19 +67,28 @@ const Proyects = () => {
           <div className={style.imgCon}>
             <ul>
               <li>
-                <img className={style.cardImg} src="src/Imgs/home-pf.jpeg" />
+                <img
+                  className={style.cardImg}
+                  src="https://mis-imagenes-jaider.s3.us-east-2.amazonaws.com/home-pf.jpeg"
+                />
               </li>
               <li>
-                <img className={style.cardImg} src="src/Imgs/songs-pf.png" />
+                <img
+                  className={style.cardImg}
+                  src="https://mis-imagenes-jaider.s3.us-east-2.amazonaws.com/songs-pf.png"
+                />
               </li>
               <li>
-                <img className={style.cardImg} src="src/Imgs/admin-pf.jpeg" />
+                <img
+                  className={style.cardImg}
+                  src="https://mis-imagenes-jaider.s3.us-east-2.amazonaws.com/admin-pf.jpeg"
+                />
               </li>
             </ul>
           </div>
           <div className={style.cardDesCon}>
             <p className={style.cardDescription}>
-              <span className={style.resal}>Proyecto final incluye:</span>{" "}
+              <span className={style.resal}>Proyecto final incluye:</span>
               <br />
               Login de usuarios, vista de las canciones y albums, filtros
               combinados, carrito de compras, pasarela de pagos, cloudinary, api
