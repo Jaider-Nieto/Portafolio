@@ -12,26 +12,26 @@ const Proyects = () => {
               <li>
                 <img
                   className={style.cardImg}
-                  src="https://mis-imagenes-jaider.s3.us-east-2.amazonaws.com/Pi-pokemon-1.png"
+                  src="https://i.ibb.co/5W0q8DW/Pi-pokemon-1.jpg"
                 />
               </li>
               <li>
                 <img
                   className={style.cardImg}
-                  src="https://mis-imagenes-jaider.s3.us-east-2.amazonaws.com/Pi-pokemon-2.png"
+                  src="https://i.ibb.co/VMd6vv3/Pi-pokemon-2.png"
                 />
               </li>
               <li>
                 <img
                   className={style.cardImg}
-                  src="https://mis-imagenes-jaider.s3.us-east-2.amazonaws.com/Pi-pokemon-3.png"
+                  src="https://i.ibb.co/8YX481P/Pi-pokemon-3.png"
                 />
               </li>
             </ul>
           </div>
           <div className={style.cardDesCon}>
             <p className={style.cardDescription}>
-              <span className={style.resal}>App de Pokemons que incluye:</span>{" "}
+              <span className={style.resal}>App de Pokemons que incluye:</span>
               <br />
               Filtros en conjunto, formulario para la creación de un Pokemon,
               paginado, ordenamientos, api rest y crud completo, etc.
@@ -69,19 +69,19 @@ const Proyects = () => {
               <li>
                 <img
                   className={style.cardImg}
-                  src="https://mis-imagenes-jaider.s3.us-east-2.amazonaws.com/home-pf.jpeg"
+                  src="https://i.ibb.co/VxN1KDC/home-pf.jpg"
                 />
               </li>
               <li>
                 <img
                   className={style.cardImg}
-                  src="https://mis-imagenes-jaider.s3.us-east-2.amazonaws.com/songs-pf.png"
+                  src="https://i.ibb.co/r2qQgFd/songs-pf.png"
                 />
               </li>
               <li>
                 <img
                   className={style.cardImg}
-                  src="https://mis-imagenes-jaider.s3.us-east-2.amazonaws.com/admin-pf.jpeg"
+                  src="https://i.ibb.co/nw59SB4/admin-pf.jpg"
                 />
               </li>
             </ul>
