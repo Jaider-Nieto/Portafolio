@@ -7,7 +7,11 @@ const Start = () => {
       <h2 className={style.name}>Jaider Nieto</h2>
       <h2 className={style.dev}>Desarrollador Backend</h2>
       <div className={style.text}> con conocimientos solidos en Frontend </div>
-      <a className={style.btn} href="https://drive.google.com/file/d/1CaW55EN0HieRcbjIqNbK2GhoV_fMmlqI/view?usp=drive_link">
+      <a
+        className={style.btn}
+        href="https://drive.google.com/file/d/1CaW55EN0HieRcbjIqNbK2GhoV_fMmlqI/view?usp=drive_link"
+        target="_blank"
+      >
         Descargar CV
       </a>
     </div>
