@@ -9,10 +9,10 @@ const Start = () => {
       <div className={style.text}> con conocimientos solidos en Frontend </div>
       <a
         className={style.btn}
-        href="https://drive.google.com/file/d/1CaW55EN0HieRcbjIqNbK2GhoV_fMmlqI/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1KyNND9eo_Z52DAu92BKq5Nx8neW5VsYC/view?usp=sharing"
         target="_blank"
       >
-        Descargar CV
+        MI CV
       </a>
     </div>
   );
