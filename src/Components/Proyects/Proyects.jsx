@@ -156,7 +156,7 @@ const Proyects = () => {
         <div className={style.card}>
           <h3 className={style.cardTitle}>Soul Music</h3>
           <a
-            href='https://movies-front-tau.vercel.app/'
+            href='https://soul-music-pf.netlify.app/home'
             target='_blank'
             className={style.imgCon}
           >

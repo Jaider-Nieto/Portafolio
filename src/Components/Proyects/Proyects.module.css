@@ -47,6 +47,24 @@
   width: 45%;
   margin: 1.5rem auto 0 auto;
   overflow: hidden;
+  transition: .2s;
+}
+
+.imgCon:hover::before{
+  content: "Deploy";
+  font-size: 2rem;
+  padding: .5rem 2rem;
+  margin: 6rem 11rem ;
+  border-radius: 1rem;
+  background: linear-gradient(to top,#8f2cc9, #2ADDF7);
+  color: #fff;
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  outline: 2px solid #fff;
+
 }
 
 .imgCon:hover{
