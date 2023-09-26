@@ -1,4 +1,4 @@
-.container{
+.container {
   grid-column: 2/3;
   color: #fff;
   width: 90%;
@@ -14,7 +14,7 @@
   scroll-margin-top: 1.2ex;
 }
 
-.cardContainer{
+.cardContainer {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +23,7 @@
   margin-bottom: 1.5rem;
 }
 
-.card{
+.card {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -31,75 +31,139 @@
   gap: 1rem;
 }
 
-.cardTitle{
+.cardTitle {
+  font-family: 'Martian Mono', monospace;
+  font-weight: 400;
   width: 100%;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   text-align: center;
   color: #6f1aa0;
   text-shadow: 4px 3px 0 #2d0f3f;
 }
 
-.imgCon{
+.imgCon {
+  outline: 2px solid #fff;
   height: 16rem;
   width: 45%;
   margin: 1.5rem auto 0 auto;
   overflow: hidden;
 }
-.imgCon ul{
+
+.imgCon:hover{
+  outline: 2px solid #8d8c8c;
+  opacity: .8;
+}
+
+.imgCon ul {
   display: flex;
   width: 300%;
   height: 16rem;
   animation: slide 12s infinite ease-in-out;
 }
-.imgCon li{
+.imgCon li {
   list-style: none;
   width: 100%;
 }
-.cardImg{
+.cardImg {
   height: 16rem;
   width: 100%;
-  outline: 2px solid #4067e6;
 }
 
-.cardDesCon{
+.cardDesCon {
   width: 50%;
 }
 
-.cardDescription{
+.cardDescription {
   width: 90%;
   margin: 0 auto;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   margin: 1rem auto;
-  text-align: justify;  
+  text-align: justify;
 }
 
-.tecno{
-  list-style: none;
+.skills {
   width: 90%;
   font-size: 1.7rem;
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.resal{
-  color: #6f1aa0;
+.contIcons {
+  display: flex;
+  align-items: center;
+  font-size: 2.8rem;
+  gap: 1rem;
 }
 
-.btn{
+.js {
+  color: #f7df1e;
+}
+
+.css {
+  color: #0068ba;
+}
+
+.react {
+  color: #1399c4;
+}
+
+.express {
+  color: #7ec727;
+}
+
+.redux {
+  color: #7649bb;
+}
+
+.postgres{
+  color: #4986b4;
+}
+
+.postgres{
+  color: #4986b4;
+}
+
+.sequelize{
+  color: #59B2E7;
+}
+
+.git{
+  color: #F15639;
+}
+
+.node{
+  color: #7ec727;
+}
+
+.aws{
+  color: #f29c37;
+}
+
+.mercado{
+  color: #52b3e0;
+}
+
+.resal {
+  color: #942bd1;
+}
+
+.btn {
   text-decoration: none;
   font-size: 1.5rem;
   background: linear-gradient(to top left, #4067e6, #6f1aa0);
   width: auto;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   margin: 1rem 2rem;
   color: #fff;
   position: relative;
   right: 1.5rem;
   border-radius: 1rem;
   outline: 2px solid #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #000;
   box-shadow: 5px 6px 0 #9c23e2, -5px -6px 0 #4992e6;
   color: #fff;
@@ -107,12 +171,24 @@
 }
 
 @keyframes slide {
-  0% {margin-left: 0%;}
-  30% {margin-left: 0%;}
+  0% {
+    margin-left: 0%;
+  }
+  30% {
+    margin-left: 0%;
+  }
 
-  35% {margin-left: -100%;}
-  65% {margin-left: -100%;}
+  35% {
+    margin-left: -100%;
+  }
+  65% {
+    margin-left: -100%;
+  }
 
-  70% {margin-left: -200%;}
-  100% {margin-left: -200%;}
+  70% {
+    margin-left: -200%;
+  }
+  95% {
+    margin-left: -200%;
+  }
 }

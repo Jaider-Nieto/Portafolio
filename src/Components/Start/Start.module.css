@@ -1,68 +1,79 @@
-.container{
+.container {
   grid-column: 2/3;
   color: #fff;
   width: 85%;
   height: 30rem;
   margin: 3rem 1rem 0 1rem;
   padding: 1rem 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  align-content: space-around;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(4, 7rem);
   border-radius: 1rem;
 }
 
-.hi{
-  height: 3rem;
-  font-size:4rem;
-  width: 33%;
-  text-align: end;
-  padding: 0 1rem;
-  text-shadow: 4px 4px 0 #636363; 
+.contText{
+  grid-column: 2/5;
 }
 
-.name{
-  height: 3rem;
-  width: 70;
+.hi {
+  font-size: 4rem;
+  text-shadow: 4px 4px 0 #636363;
+  grid-column: 2/5;
+  grid-row: 1/2;
+}
+
+.name {
+  grid-column: 2/5;
+  grid-row: 2/3;
   font-size: 6rem;
-  text-align: start;
-  padding: 0 1rem;
   color: #000;
-  text-shadow: 3px 3px 0 #7a1bb1, -3px -3px 0 #3b8ce9 ;
+  text-shadow: 3px 3px 0 #7a1bb1, -3px -3px 0 #3b8ce9;
 }
 
-.dev{
+.dev {
+  grid-column: 1/5;
+  grid-row: 3/4;
   font-size: 5.5rem;
-  text-align: center;
   color: #000;
-  text-shadow: 3px 3px 0 #b11b1b, -3px -3px 0 #4fe93b ;
+  text-shadow: 3px 3px 0 #b11b1b, -3px -3px 0 #4fe93b;
 }
 
-.text{
-  height: auto;
-  font-size: 2rem;
-  text-shadow: 2px 2px 0 #636363; 
-  width: 100%;
+.text {
+  grid-column: 1/4;
+  grid-row: 4/5;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 0 #636363;
   text-align: center;
+
 }
 
-.btn{
+.img {
+  margin-left: 13rem;
+  width: 15rem;
+  border-radius: 50%;
+  outline: 3px solid #fff;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.btn {
+  grid-column: 4/5;
+  grid-row: 4/5;
   text-decoration: none;
+  text-align: center;
   width: auto;
-  padding: .5rem 1rem;
+  padding: 0.5rem 2rem;
   font-size: 2rem;
-  background: linear-gradient(to left, #4d7fb8, #6c2397  );
+  background: linear-gradient(to left, #4d7fb8, #6c2397);
   color: #ddd;
-  outline: 1px solid #ffffff;
-  box-shadow: 0 0 5px #868686;
-  transition: .2s;
-  border-radius: .5rem;
+  outline: 2px solid #ffffff;
+  transition: 0.2s;
+  border-radius: 0.5rem;
 }
 
-.btn:hover{
-  background-color: #000;
-  box-shadow: 5px 5px 0 #9c23e2, -5px -5px 0 #4992e6;
-  color: #fff;
+.btn:hover {
+  box-shadow: 6px 6px 0 #9c23e2, -6px -6px 0 #4992e6;
   scale: 1.05;
 }

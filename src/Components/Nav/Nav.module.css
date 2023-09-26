@@ -1,8 +1,8 @@
-.container{
+.container {
   background-color: #000;
   width: 100%;
-  padding: .5rem 0;
-  margin:auto;
+  padding: 0.5rem 0;
+  margin: auto;
   display: flex;
   color: #fff;
   justify-content: center;
@@ -15,54 +15,54 @@
   box-shadow: 0 0 15px #4d4c4c;
 }
 
-.devCon{
+.devCon {
   background: linear-gradient(to right, #2ae9f7, #8a14ce);
   margin-right: 1rem;
 }
 
-.dev{
+.dev {
   width: 100%;
   height: 100%;
   background-color: #000;
-  font-size: 3rem; 
+  font-size: 3rem;
   font-weight: bold;
-  color:  #fff;
+  color: #fff;
   mix-blend-mode: multiply;
   text-decoration: none;
 }
 
-.btn{
+.btn {
   text-decoration: none;
   font-weight: 400;
   font-size: 2rem;
   cursor: pointer;
   padding: 0 1rem;
-  border-bottom:3px solid transparent;
-  color: #fff; 
-  transition: .2s;
+  border-bottom: 3px solid transparent;
+  color: #fff;
+  transition: 0.2s;
 }
 
-.btn:nth-child(2):hover{
+.btn:nth-child(2):hover {
   color: #d63131;
   border-bottom: 3px solid #d63131;
 }
 
-.btn:nth-child(3):hover{
-  color: #31d639;
-  border-bottom: 3px solid #31d639;
-}
-
-.btn:nth-child(4):hover{
+.btn:nth-child(3):hover {
   color: #a134e0;
   border-bottom: 3px solid #8f2cc9;
 }
 
-.btn:nth-child(5):hover{
+.btn:nth-child(4):hover {
+  color: #31d639;
+  border-bottom: 3px solid #31d639;
+}
+
+.btn:nth-child(5):hover {
   color: #e4f54a;
   border-bottom: 3px solid #e4f54a;
 }
 
-.btn:nth-child(6):hover{
-  color: #2ADDF7;
-  border-bottom: 3px solid #2ADDF7;
+.btn:nth-child(6):hover {
+  color: #2addf7;
+  border-bottom: 3px solid #2addf7;
 }
