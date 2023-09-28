@@ -70,24 +70,22 @@
     background-color: #000;
     width: 100vw;
     padding: 0.5rem 0;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
     color: #fff;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
     outline: 1px solid #fff;
     box-shadow: 0 0 15px #4d4c4c;
   }
 
   .dev {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
 
   .menu {
     visibility: visible;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .btn {
@@ -105,7 +103,11 @@
   }
 
   .btn {
-    font-size: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .span{
+  font-size: 1.2rem;
   }
 
   /* aside */
