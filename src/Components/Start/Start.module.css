@@ -1,7 +1,7 @@
 .container {
   grid-column: 2/3;
   color: #fff;
-  width: 85%;
+  width: 80vw;
   height: 30rem;
   margin: 3rem 1rem 0 1rem;
   padding: 1rem 3rem;
@@ -11,6 +11,7 @@
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(4, 7rem);
   border-radius: 1rem;
+  outline: 1px solid red;
 }
 
 .contText{

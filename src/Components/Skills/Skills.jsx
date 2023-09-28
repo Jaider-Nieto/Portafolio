@@ -14,6 +14,7 @@ import {
   SiAmazonaws,
   SiExpress,
   SiMercadopago,
+  SiNestjs,
   SiPrisma,
   SiSequelize
 } from 'react-icons/si';
@@ -45,7 +46,7 @@ const Skills = () => {
           <BiLogoTypescript title='TYPESCRIPT' className={style.icon} />
         </span>
         <span className={style.iconContainer}>
-          <SiPrisma title='PRISMA' className={style.icon} />
+          <SiNestjs title='NESTJS' className={style.icon} />
         </span>
         <span className={style.iconContainer}>
           <BiLogoPostgresql title='POSTGRES' className={style.icon} />
