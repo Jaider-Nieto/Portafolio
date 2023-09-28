@@ -9,10 +9,10 @@ const Home = () => {
   return (
     <div className={style.container}>
       <Aside/>
-      <Start/>
+      {/* <Start/>
       <Proyects/>
       <About/>
-      <Skills/>
+      <Skills/> */}
     </div>
   )
 }

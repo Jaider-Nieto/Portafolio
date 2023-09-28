@@ -6,3 +6,11 @@
   grid-template-columns: 6% 94%;
   margin: auto;
 }
+
+@media screen and (max-width: 767px) {
+  .container{
+    font-weight: 400;
+    font-size: 7rem;
+    display: flex;
+  }
+}

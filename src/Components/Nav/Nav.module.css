@@ -17,7 +17,6 @@
 
 .devCon {
   background: linear-gradient(to right, #2ae9f7, #8a14ce);
-  margin-right: 1rem;
 }
 
 .dev {
@@ -31,7 +30,7 @@
   text-decoration: none;
 }
 
-.menu{
+.menu {
   visibility: hidden;
 }
 
@@ -82,39 +81,86 @@
     box-shadow: 0 0 15px #4d4c4c;
   }
 
-  .dev{
+  .dev {
     font-size: 1.2rem;
   }
 
-  .menu{
+  .menu {
     visibility: visible;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
-  .contBtn{
+  .btn {
+    margin: 0 0.3rem;
+    padding: 0 0.2rem;
+  }
+
+  .contBtn {
     visibility: hidden;
     position: absolute;
   }
 
-  .contBtnMov{
+  .contBtnMov {
     display: flex;
   }
 
-  .btn{
+  .btn {
     font-size: 1rem;
+  }
+
+  /* aside */
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 1rem;
+    margin: 0.5rem 0 0;
+  }
+
+  .a {
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+  }
+  .icon {
+    font-size: 2rem;
+  }
+
+  .a:nth-child(2) .icon {
+    color: #fff;
+  }
+
+  .a:nth-child(3) .icon {
+    /* background-color: #fff; */
+    color: #a70f0f;
+  }
+
+  .a:nth-child(4) .icon {
+    /* background-color: #fff; */
+    color: #0a66c2;
+  }
+
+  .a:nth-child(5) .icon {
+    /* background-color: #fff; */
+    color: #0cc243;
   }
 }
 
-@media screen and (min-width: 767px) and (max-width:1023px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) {
   .devCon {
     background: linear-gradient(to right, #2ae9f7, #8a14ce);
   }
 
-  .dev{
+  .dev {
     font-size: 1.5rem;
   }
 
-  .btn{
+  .btn {
     font-size: 1.2rem;
   }
 }

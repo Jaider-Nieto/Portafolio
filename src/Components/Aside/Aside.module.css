@@ -1,4 +1,4 @@
-.container{
+.container {
   background-color: #000;
   height: 55vh;
   position: sticky;
@@ -16,7 +16,7 @@
   box-shadow: 0 0 15px #4d4c4c;
 }
 
-.a{
+.a {
   font-size: 2.5rem;
   display: flex;
   flex-wrap: wrap;
@@ -24,39 +24,46 @@
   align-content: center;
   color: #fff;
 }
-.icon{
-  padding: .2rem;
+.icon {
+  padding: 0.2rem;
   font-size: 3rem;
   margin: 1rem 0;
-  transition: .3s;
+  transition: 0.3s;
   position: relative;
 }
 
-.icon:hover{
+.icon:hover {
   font-size: 4rem;
   margin-left: 2rem;
 }
 
-.a:nth-child(1) .icon:hover{
+.a:nth-child(1) .icon:hover {
   background-color: #fff;
   color: #000000;
   border-radius: 1rem;
 }
 
-.a:nth-child(2) .icon:hover{
+.a:nth-child(2) .icon:hover {
   background-color: #fff;
   color: #ffd000;
   border-radius: 1rem;
 }
 
-.a:nth-child(3) .icon:hover{
+.a:nth-child(3) .icon:hover {
   background-color: #fff;
-  color: #0A66C2;
+  color: #0a66c2;
   border-radius: 1rem;
 }
 
-.a:nth-child(4) .icon:hover{
+.a:nth-child(4) .icon:hover {
   background-color: #fff;
-  color: #0CC243;
+  color: #0cc243;
   border-radius: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    visibility: hidden;
+    position: fixed;
+  }
 }
