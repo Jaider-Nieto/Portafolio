@@ -210,3 +210,20 @@
     margin-left: -200%;
   }
 }
+
+
+@media screen and (max-width: 767px) {
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 7rem;
+    display: flex;
+    overflow-x: hidden;
+  }
+
+  .contIcons{
+    flex-wrap: wrap;
+  }
+
+}
