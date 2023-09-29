@@ -3,11 +3,13 @@ import style from './Start.module.css';
 const Start = () => {
   return (
     <div className={style.container}>
+      <div className={style.contImg}>
       <img
         className={style.img}
         src='https://i.ibb.co/268q6sn/yo-img.webp'
         alt='avatar'
       />
+      </div>
       <p className={style.hi}>Hola, soy</p>
       <p className={style.name}>Jaider Nieto</p>
       <p className={style.dev}>Desarrollador Backend</p>

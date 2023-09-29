@@ -116,6 +116,14 @@
   .btn {
     margin: .7rem 0;
     font-size: 1.2rem;
+    width: auto;
+  }
+
+  .contImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .img {
