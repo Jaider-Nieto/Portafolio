@@ -86,6 +86,7 @@
     justify-content: center;
     justify-items: center;
     flex-wrap: wrap;
+    outline: 1px solid red;
   }
 
   .hi {
@@ -118,7 +119,7 @@
 
   .btn {
     margin: 0.7rem 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: auto;
     padding: 0.5rem 1rem;
   }
