@@ -87,7 +87,6 @@
     justify-content: center;
     justify-items: center;
     flex-wrap: wrap;
-    outline: 1px solid red;
   }
 
   .hi {
@@ -96,7 +95,6 @@
     margin: 0.5rem 0;
     text-align: end;
     padding-right: 0.5rem;
-    outline: 1px solid red;
   }
 
   .name {
