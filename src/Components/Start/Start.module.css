@@ -90,16 +90,18 @@
 
   .hi {
     font-size: 1.5rem;
-    width: 40%;
+    width: 45%;
     margin: 0.7rem 0;
-    text-align: center;
+    text-align: end;
+    padding-right: 0.5rem;
   }
 
   .name {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin: 0.7rem 0;
-    width: 60%;
-    text-align: center;
+    width: 55%;
+    text-align: start;
+    padding-left: 0.5rem;
   }
 
   .dev {
@@ -114,12 +116,13 @@
   }
 
   .btn {
-    margin: .7rem 0;
+    margin: 0.7rem 0;
     font-size: 1.2rem;
     width: auto;
+    padding: 0.5rem 1rem;
   }
 
-  .contImg{
+  .contImg {
     width: 100%;
     display: flex;
     justify-content: center;
