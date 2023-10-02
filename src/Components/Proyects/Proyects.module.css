@@ -214,12 +214,28 @@
 
 @media screen and (max-width: 767px) {
   .container{
+    padding: 0;
+    margin: 2rem auto 1rem;
     display: flex;
     flex-wrap: wrap;
     font-weight: 400;
     font-size: 7rem;
     display: flex;
     overflow-x: hidden;
+  }
+
+  .cardContainer{
+    outline: 1px solid red;
+  }
+
+  .cardTitle{
+    font-size: 2rem;
+  }
+
+  .imgCon{
+    margin: .5rem auto;
+    height: auto;
+    width: 90%;
   }
 
   .contIcons{
