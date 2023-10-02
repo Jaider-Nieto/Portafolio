@@ -57,8 +57,7 @@
 .img {
   width: 15rem;
   border-radius: 50%;
-  outline: 3px solid #fff;
-  
+  outline: 2px solid #fff;
 }
 
 .btn {
@@ -71,7 +70,7 @@
   font-size: 2rem;
   background: linear-gradient(to left, #4d7fb8, #6c2397);
   color: #ddd;
-  outline: 2px solid #ffffff;
+  outline: 1px solid #fff;
   transition: 0.2s;
   border-radius: 0.5rem;
 }
@@ -105,7 +104,7 @@
   .name {
     font-size: 2rem;
     margin: 0.5rem 0;
-    width:55%;
+    width: 55%;
     text-align: start;
     padding-left: 0.5rem;
     text-shadow: 2px 2px 0 #7a1bb1, -2px -2px 0 #3b8ce9;
@@ -124,7 +123,7 @@
   }
 
   .btn {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     margin-top: 0.8rem;
     font-size: 1rem;
     width: 30%;

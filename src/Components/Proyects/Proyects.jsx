@@ -77,20 +77,22 @@ const Proyects = () => {
               <SiMercadopago title='MERCADO PAGO' className={style.mercado} />
             </div>
           </div>
-          <a
-            className={style.btn}
-            target='_blanck'
-            href='https://github.com/Jaider-Nieto/Soul-Music-Back'
-          >
-            Repositorio Backend
-          </a>
-          <a
-            className={style.btn}
-            target='_blanck'
-            href='https://github.com/Jaider-Nieto/Soul-Music-Front'
-          >
-            Repositorio Frontend
-          </a>
+          <div className={style.contBtn}>
+            <a
+              className={style.btn}
+              target='_blanck'
+              href='https://github.com/Jaider-Nieto/Soul-Music-Back'
+            >
+              Repositorio Backend
+            </a>
+            <a
+              className={style.btn}
+              target='_blanck'
+              href='https://github.com/Jaider-Nieto/Soul-Music-Front'
+            >
+              Repositorio Frontend
+            </a>
+          </div>
         </div>
       </div>
 
@@ -154,20 +156,22 @@ const Proyects = () => {
               <SiMercadopago title='MERCADO PAGO' className={style.mercado} />
             </div>
           </div>
-          <a
-            className={style.btn}
-            target='_blanck'
-            href='https://github.com/Jaider-Nieto/Soul-Music-Back'
-          >
-            Repositorio Backend
-          </a>
-          <a
-            className={style.btn}
-            target='_blanck'
-            href='https://github.com/Jaider-Nieto/Soul-Music-Front'
-          >
-            Repositorio Frontend
-          </a>
+          <div className={style.contBtn}>
+            <a
+              className={style.btn}
+              target='_blanck'
+              href='https://github.com/Jaider-Nieto/Soul-Music-Back'
+            >
+              Repositorio Backend
+            </a>
+            <a
+              className={style.btn}
+              target='_blanck'
+              href='https://github.com/Jaider-Nieto/Soul-Music-Front'
+            >
+              Repositorio Frontend
+            </a>
+          </div>
         </div>
       </div>
 

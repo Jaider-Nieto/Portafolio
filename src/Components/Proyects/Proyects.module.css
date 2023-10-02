@@ -174,16 +174,21 @@
   color: #942bd1;
 }
 
+.contBtn{
+  width: 90%;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .btn {
   text-decoration: none;
   font-size: 1.5rem;
   background: linear-gradient(to top left, #4067e6, #6f1aa0);
   width: auto;
   padding: 0.5rem 1rem;
-  margin: 1rem 2rem;
   color: #fff;
-  position: relative;
-  right: 1.5rem;
   border-radius: 1rem;
   outline: 2px solid #fff;
   transition: 0.3s;
@@ -231,29 +236,80 @@
     overflow-x: hidden;
   }
 
-  .cardContainer {
-    outline: 1px solid red;
+  .proyectos{
+    font-size: 3rem;
+  }
+
+  .card{
+    justify-content: center;
+    align-items: center;
   }
 
   .cardTitle {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .imgCon {
     margin: 0.5rem auto;
     height: auto;
-    width: 90%;
+    width: 95%;
+    outline: 1px solid #fff;
+  }
+  .imgCon::before {
+    content: "toca para ver el deploy*";
+    padding: .3rem;
+    font-size: .5rem;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
   }
 
   .cardDesCon {
-    width: 90%;
+    width: 100%;
   }
 
   .cardDescription {
     font-size: 1rem;
+    margin: 0 auto;
+  }
+
+  .skills{
+    width: 100%;
+    flex-wrap: wrap;
+    gap: .5rem;
+  }
+
+  .resal{
+    margin: 0 auto;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
   }
 
   .contIcons {
+    width: 90%;
+    margin: auto;
     flex-wrap: wrap;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+  }
+
+  .contBtn{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btn{
+    outline: 1px solid #fff;
+    border-radius: .3rem;
+    margin: 0;
+    font-size: .7rem;
+    width: auto;
+    padding: .2rem .5rem;
   }
 }
