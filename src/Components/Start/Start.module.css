@@ -99,6 +99,7 @@
     margin: 0.5rem 0;
     text-align: end;
     padding-right: 0.5rem;
+    text-shadow: 3px 3px 0 #636363;
   }
 
   .name {
@@ -107,6 +108,7 @@
     width:55%;
     text-align: start;
     padding-left: 0.5rem;
+    text-shadow: 2px 2px 0 #7a1bb1, -2px -2px 0 #3b8ce9;
   }
 
   .dev {

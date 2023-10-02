@@ -18,8 +18,8 @@ import {
 const Proyects = () => {
   return (
     <div id='Proyectos' className={style.container}>
+      <div className={style.proyectos}>PROYECTOS</div>
       {/* GreenScreen */}
-
       <div className={style.cardContainer}>
         <div className={style.card}>
           <h3 className={style.cardTitle}>GreenScreen</h3>

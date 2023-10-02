@@ -3,7 +3,7 @@
   color: #fff;
   width: 90%;
   height: auto;
-  margin: 3rem 1rem 0 1rem;
+  margin: 2rem 1rem 0 1rem;
   padding: 1rem 3rem;
   display: flex;
   flex-wrap: wrap;
@@ -12,6 +12,15 @@
   align-content: space-around;
   border-radius: 1rem;
   scroll-margin-top: 1.2ex;
+}
+
+.proyectos {
+  font-family: 'Martian Mono', monospace;
+  font-size: 4rem;
+  color: #6f1aa0;
+  text-shadow: -4px 4px 0 #2d0f3f;
+  border-bottom: 3px solid #6f1aa0;
+  margin-bottom: 1rem;
 }
 
 .cardContainer {
@@ -47,16 +56,16 @@
   width: 45%;
   margin: 1.5rem auto 0 auto;
   overflow: hidden;
-  transition: .2s;
+  transition: 0.2s;
 }
 
-.imgCon:hover::before{
-  content: "Deploy";
+.imgCon:hover::before {
+  content: 'Deploy';
   font-size: 2rem;
-  padding: .5rem 2rem;
-  margin: 6rem 9.5rem ;
+  padding: 0.5rem 2rem;
+  margin: 6rem 9.5rem;
   border-radius: 1rem;
-  background: linear-gradient(to top,#8f2cc9, #2ADDF7);
+  background: linear-gradient(to top, #8f2cc9, #2addf7);
   color: #fff;
   position: absolute;
   z-index: 1000;
@@ -64,12 +73,11 @@
   justify-content: center;
   align-content: center;
   outline: 2px solid #fff;
-
 }
 
-.imgCon:hover{
+.imgCon:hover {
   outline: 2px solid #8d8c8c;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .imgCon ul {
@@ -134,31 +142,31 @@
   color: #7649bb;
 }
 
-.postgres{
+.postgres {
   color: #4986b4;
 }
 
-.postgres{
+.postgres {
   color: #4986b4;
 }
 
-.sequelize{
-  color: #59B2E7;
+.sequelize {
+  color: #59b2e7;
 }
 
-.git{
-  color: #F15639;
+.git {
+  color: #f15639;
 }
 
-.node{
+.node {
   color: #7ec727;
 }
 
-.aws{
+.aws {
   color: #f29c37;
 }
 
-.mercado{
+.mercado {
   color: #52b3e0;
 }
 
@@ -211,9 +219,8 @@
   }
 }
 
-
 @media screen and (max-width: 767px) {
-  .container{
+  .container {
     padding: 0;
     margin: 2rem auto 1rem;
     display: flex;
@@ -224,22 +231,29 @@
     overflow-x: hidden;
   }
 
-  .cardContainer{
+  .cardContainer {
     outline: 1px solid red;
   }
 
-  .cardTitle{
+  .cardTitle {
     font-size: 2rem;
   }
 
-  .imgCon{
-    margin: .5rem auto;
+  .imgCon {
+    margin: 0.5rem auto;
     height: auto;
     width: 90%;
   }
 
-  .contIcons{
-    flex-wrap: wrap;
+  .cardDesCon {
+    width: 90%;
   }
 
+  .cardDescription {
+    font-size: 1rem;
+  }
+
+  .contIcons {
+    flex-wrap: wrap;
+  }
 }
