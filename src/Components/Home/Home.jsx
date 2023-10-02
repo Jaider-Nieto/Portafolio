@@ -11,8 +11,8 @@ const Home = () => {
       <Aside />
       <Start />
       <Proyects />
-      {/* <About />
-      <Skills /> */}
+      <About />
+      <Skills />
     </div>
   );
 };

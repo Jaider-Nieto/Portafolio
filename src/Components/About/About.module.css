@@ -1,4 +1,4 @@
-.container{
+.container {
   grid-column: 2/3;
   color: #fff;
   width: 80%;
@@ -14,7 +14,7 @@
   scroll-margin-top: 1.6ex;
 }
 
-.title{
+.title {
   font-family: 'Martian Mono', monospace;
   color: #31d639;
   font-size: 4.5rem;
@@ -23,14 +23,31 @@
   text-shadow: 4px 4px 0 #155318;
 }
 
-.text{
+.text {
   font-size: 2rem;
   text-shadow: 3px 3px 0 #4d4c4c;
   text-align: justify;
 }
 
-.span{
+.span {
   font-family: 'Martian Mono', monospace;
   color: #13ad1b;
-  text-shadow: 3px 3px 0 #043106; 
+  text-shadow: 3px 3px 0 #043106;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    grid-column: none;
+    height: auto;
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 0.7rem;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
 }

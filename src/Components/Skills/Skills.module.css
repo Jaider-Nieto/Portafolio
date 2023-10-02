@@ -1,4 +1,4 @@
-.container{
+.container {
   grid-column: 2/3;
   color: #fff;
   width: 90%;
@@ -13,9 +13,9 @@
   scroll-margin-top: 1ex;
 }
 
-.title{
-  font-family: 'Martian Mono', monospace; 
-  width: 100%;
+.title {
+  font-family: 'Martian Mono', monospace;
+  border-bottom: 2px solid #dad60e;
   text-align: center;
   color: transparent;
   font-size: 4rem;
@@ -23,7 +23,7 @@
   margin: 2rem 0;
 }
 
-.content{
+.content {
   width: 100%;
   margin: 1rem;
   display: flex;
@@ -35,15 +35,15 @@
   border-radius: 2rem;
 }
 
-.icon{
+.icon {
   width: 90%;
   height: 90%;
 }
 
-.iconContainer{
+.iconContainer {
   width: 6rem;
   height: 6rem;
-  padding: .5rem;
+  padding: 0.5rem;
   background: #000;
   display: flex;
   align-items: center;
@@ -51,54 +51,76 @@
   border-radius: 2rem;
   outline: 2px solid #888;
   box-shadow: -5px 5px 0 2px #888;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.iconContainer:hover{
+.iconContainer:hover {
   scale: 1.2;
   outline: 2px solid #dad60e;
   box-shadow: -5px 5px 0 2px #dad60e;
 }
 
-.iconContainer:nth-child(1){
-  color: #F64A1D;
+.iconContainer:nth-child(1) {
+  color: #f64a1d;
 }
-.iconContainer:nth-child(2){
-  color: #0068BA;
+.iconContainer:nth-child(2) {
+  color: #0068ba;
 }
-.iconContainer:nth-child(3){
-  color: #F7DF1E;
+.iconContainer:nth-child(3) {
+  color: #f7df1e;
 }
-.iconContainer:nth-child(4){
-  color: #7EC727;
+.iconContainer:nth-child(4) {
+  color: #7ec727;
 }
-.iconContainer:nth-child(5){
-  color: #1399C4;
+.iconContainer:nth-child(5) {
+  color: #1399c4;
 }
-.iconContainer:nth-child(6){
-  color: #7649BB;
+.iconContainer:nth-child(6) {
+  color: #7649bb;
 }
-.iconContainer:nth-child(7){
-  color: #097ECD;
+.iconContainer:nth-child(7) {
+  color: #097ecd;
 }
-.iconContainer:nth-child(8){
+.iconContainer:nth-child(8) {
   color: #de204c;
 }
-.iconContainer:nth-child(9){
+.iconContainer:nth-child(9) {
   color: #4986b4;
 }
-.iconContainer:nth-child(10){
-  color: #59B2E7;
+.iconContainer:nth-child(10) {
+  color: #59b2e7;
 }
-.iconContainer:nth-child(11){
-  color: #F15639;
+.iconContainer:nth-child(11) {
+  color: #f15639;
 }
-.iconContainer:nth-child(12){
-  color: #7EC727;;
+.iconContainer:nth-child(12) {
+  color: #7ec727;
 }
-.iconContainer:nth-child(13){
+.iconContainer:nth-child(13) {
   color: #f29c37;
 }
-.iconContainer:nth-child(14){
+.iconContainer:nth-child(14) {
   color: #52b3e0;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    grid-column: none;
+    height: auto;
+    margin: 1rem auto;
+    width: 90%;
+    padding: 0 0.7rem;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .iconContainer {
+    width: 3rem;
+    height: 3rem;
+    padding: .2rem;
+    border-radius: .5rem;
+    outline: 2px solid #dad60e;
+    box-shadow: -3px 3px 0 2px #dad60e;
+  }
 }
